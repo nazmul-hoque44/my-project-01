@@ -1,0 +1,272 @@
+
+
+/* banner-section */
+
+.banner-container{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-left: 10em;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 2em;
+    margin-right: 10rem;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(37, 36, 50) ;
+    font-size: 1rem;
+}
+.banner-part{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+
+
+}
+.title-section{
+    max-width: 400px;
+height: 200px;
+}
+.title-section p{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400px;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.flower-color{color: rgb(233, 90, 8);}
+/* plants section */
+.title-plants{
+    margin-top: 40px;
+text-align: center;   
+}
+.title-plants p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 700px;
+    height: 50px;
+    
+}
+.flower-cart-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+  
+}
+.flower-cart{
+    text-align: center;
+}
+.flower-cart h4{
+    color: rgb(17, 17, 17);
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px 0px;
+    
+}
+/* nursery-section */
+.flower-descriptive{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 70px;
+    
+}
+.para{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.nursey-img{
+   background-color: rgba(103, 171, 234, 0.24)
+rgba(233, 90, 8, 0.6);
+}
+.nursery-section{
+    display: flex;
+    justify-content: center;
+  
+    gap: 40px;
+    margin-top: 50px;
+}
+.trust-badge{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    /* border: 1px solid; */
+margin-left: 100px;
+    margin-top: -100px;
+}
+/* latest deal section */
+.deal-section{
+    margin-top: 150px;
+text-align: center;   
+}
+.deal-section p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 700px;
+    height: 50px;
+    
+       }
+    .img-color{color: rgb(233, 90, 8);}
+    .deal-img-sec{
+         display: flex;
+         justify-content: center;
+        gap: 5px;
+        margin-right: 100px;
+        margin-top: 50px;
+        border-radius: 30px;
+       
+    }
+    
+    .Zabo{
+        background-image: url(./assets/deal-zabo.png);
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 600px;
+        border-radius: 30px;
+    }
+    .Ana{
+        background-image: url(./assets/deal-ana.png);
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 200px;
+        border-radius: 30px;
+    }
+    .bloom{
+        background-image: url(./assets/deal-bloom.png);
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 200px;
+        border-radius: 30px;
+    }
+    
+     .deal-img-sec h1, h3{
+        color: white;
+        font-weight: 700;
+        font-size: 1.25rem;
+       text-align: center;
+        
+        padding-top: 50px;
+        line-height: 2px;
+       
+      
+       
+    }
+    .banner-last{
+        background-image: url(./assets/news-letter-bg.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        margin-top: 30px;
+    }
+    .banner-last h1{
+        /* border: 1px solid; */
+        color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+
+    padding-top: 150px;
+        
+
+    }
+    .input-button{
+        text-align: center;
+    }
+    .btn-primary{
+       background-color: rgb(233, 90, 8);
+    }
+
+    .footer-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 120px;
+    }
+.navigate ul li{
+list-style: none;
+padding: 5px;
+color: rgb(107, 114, 128);
+}
+.about-us ul li{
+list-style: none;
+padding: 10px;
+color: rgb(107, 114, 128);
+}
+.icon{
+    padding: 10px;
+}
+.logo p{
+    width: 200px;
+    height: 60px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+    
+
+    
+   
+
+@media  (max-width:576px) {
+    
+    nav ul li {
+        display: none ;
+    }
+    .banner-part{flex-direction: column-reverse;}
+   .flower-cart-section{
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+   } 
+   .title-plants p{
+     font-size: 22px;
+     width: 100%;
+   }
+   .nursery-section{
+    flex-direction: column;
+    
+}
+.para{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.trust-badge{
+    display: none;
+}
+
+.deal-img-sec{
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 100px;
+        margin-top: 50px;
+        border-radius: 30px;
+ 
+}
+.deal-section{
+    margin-top: 100px;
+text-align: center;   
+
+
+}
+.footer-section{
+    flex-direction: column;}
+
+}
